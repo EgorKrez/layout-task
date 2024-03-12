@@ -73,7 +73,7 @@ const h2 = document.getElementById('percent')
 range.oninput = calc;
 
 function calc() {
-    h2.innerHTML = range.value;
+    h2.innerHTML = range.value + ' %';
 }
 
 calc();
