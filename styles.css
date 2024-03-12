@@ -291,6 +291,12 @@ body {
     color: #43ABF0 !important;
 }
 
+.select-items {
+    height: 180px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 .select-items div,.select-selected {
     color: #272733;
     padding: 12px 16px;
@@ -316,10 +322,45 @@ body {
     left: 0;
     right: 0;
     z-index: 99;
+    scrollbar-color: #3E9CDC #3D4050;
+    scrollbar-width: thin;
 }
 
 .select-hide {
     display: none;
 }
 
+.input-section {
+    width: 1172px;
+    height: 229px;
+    margin-top: 80px;
+}
 
+.input-section-top {
+    display: flex;
+    gap: 30px;
+}
+
+.input-section-top input {
+    width: 370px;
+    height: 26px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFFD9;
+}
+
+.input-section-top input::placeholder {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #272733;
+}
+
+.input-section-bottom {
+    display: flex;
+    gap: 22px;
+}
