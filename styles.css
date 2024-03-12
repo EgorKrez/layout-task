@@ -34,7 +34,7 @@ body {
 }
 
 .header-links h1 {
-    font-family: Lato;
+    font-family: Raleway;
     font-size: 13px;
     font-weight: 600;
     line-height: 16px;
@@ -42,6 +42,11 @@ body {
     text-align: right;
     color: #FFFFFF;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.header-links h1:hover {
+    color: #43ABF0;
 }
 
 @media screen and (max-width: 1440px) {
@@ -105,7 +110,7 @@ body {
 }
 
 .main-page-content h1 {
-    font-family: Lato;
+    font-family: Raleway;
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
@@ -126,7 +131,7 @@ body {
 }
 
 .main-page-content h2 {
-    font-family: Lato;
+    font-family: Raleway;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -138,7 +143,7 @@ body {
 }
 
 .main-page-content h3 {
-    font-family: Lato;
+    font-family: Raleway;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -235,7 +240,7 @@ body {
     padding: 15px 10px 15px 10px;
     border-radius: 4px;
     text-transform: uppercase;
-    font-family: Lato;
+    font-family: Raleway;
     font-size: 13px;
     font-weight: 400;
     line-height: 16px;
@@ -266,16 +271,27 @@ body {
         margin-top: 30px;
     }
 }
+
 .buy-button {
     border: 1px solid #FFFFFF;
     background: #3E9CDC;
     color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.buy-button:hover {
+    background: #327db0;
 }
 
 .more-details-button {
     background: #FFFFFF;
     color: #2A2B30;
     border: 1px solid #6F6D7B;
+    transition: 0.3s;
+}
+
+.more-details-button:hover {
+    background: #cccccc;
 }
 
 .placing-an-order {
@@ -298,7 +314,7 @@ body {
 }
 
 .placing-an-order-container h1 {
-    font-family: Lato;
+    font-family: Raleway;
     font-size: 36px;
     font-weight: 800;
     line-height: 43px;
@@ -320,7 +336,7 @@ body {
 }
 
 .placing-an-order-container h2 {
-    font-family: Lato;
+    font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
@@ -357,6 +373,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.stepper-circle:hover {
+    background: #327db0;
 }
 
 @media screen and (max-width: 1440px) {
@@ -392,7 +414,7 @@ body {
 }
 
 .stepper-item h1 {
-    font-family: Lato;
+    font-family: Raleway;
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -496,7 +518,7 @@ body {
     border: 1px solid transparent;
     border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
     cursor: pointer;
-    font-family: Lato;
+    font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
@@ -586,7 +608,7 @@ body {
 }
 
 .input-section-top input::placeholder {
-    font-family: Lato;
+    font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
@@ -653,7 +675,7 @@ body {
 }
 
 .slider-wrapper-text h1 {
-    font-family: Lato;
+    font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
@@ -665,7 +687,7 @@ body {
 
 .slider-wrapper-text h2 {
     margin-top: 0px;
-    font-family: Lato;
+    font-family: Raleway;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
@@ -693,7 +715,7 @@ body {
     border: none;
     margin: 0;
     transition: background-color 0.2s;
-    font-family: Lato;
+    font-family: Raleway;
     font-size: 15px;
     font-weight: 600;
     line-height: 18px;
@@ -761,7 +783,7 @@ body {
     border-radius: 4px;
     background: #3E9CDC;
     border: 1px solid #FFFFFF;
-    font-family: Lato;
+    font-family: Raleway;
     font-size: 15px;
     font-weight: 600;
     line-height: 18px;
@@ -769,6 +791,12 @@ body {
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.send-button-wrapper button:hover {
+    background: #327db0;
 }
 
 @media screen and (max-width: 600px) {
@@ -829,7 +857,7 @@ body {
 }
 
 .footer-content h1 {
-    font-family: Lato;
+    font-family: Raleway;
     font-size: 13px;
     font-weight: 400;
     line-height: 16px;
@@ -845,7 +873,7 @@ body {
 }
 
 .footer-item h2 {
-    font-family: Lato;
+    font-family: Raleway;
     font-size: 13px;
     font-weight: 400;
     line-height: 16px;
