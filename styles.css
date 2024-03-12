@@ -33,7 +33,7 @@ body {
     gap: 60px;
 }
 
-.header-links h1 {
+.header-links a {
     font-family: Raleway;
     font-size: 13px;
     font-weight: 600;
@@ -43,9 +43,10 @@ body {
     color: #FFFFFF;
     cursor: pointer;
     transition: 0.3s;
+    text-decoration: none;
 }
 
-.header-links h1:hover {
+.header-links a:hover {
     color: #43ABF0;
 }
 

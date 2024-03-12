@@ -19,10 +19,10 @@
                 </h1>
             </div>
             <div class="header-links">
-                <h1 style="color: #43ABF0">Бизнес</h1>
-                <h1>О нас</h1>
-                <h1>Цены</h1>
-                <h1>Оформить заказ</h1>
+                <a href="#" style="color: #43ABF0">Бизнес</a>
+                <a href="#">О нас</a>
+                <a href="#">Цены</a>
+                <a href="#">Оформить заказ</a>
             </div>
         </div>
         <div class="main-page">
@@ -136,8 +136,8 @@
 
                          </select>
                      </div>
-                         <input placeholder="Ваш e-mail" />
-                         <input placeholder="Ваше имя" />
+                         <input placeholder="Ваш e-mail" name="Email"/>
+                         <input placeholder="Ваше имя" name="Name"/>
                      </div>
                     <div class="input-section-bottom">
                         <div class="slider-wrapper">
@@ -145,11 +145,11 @@
                                 <h1>Sed ut perspiciatis, unde omnis iste natus</h1>
                                 <h2 id="percent">0 %</h2>
                             </div>
-                            <input value="0" min="0" max="100" id="range" type="range" class="slider" />
+                            <input value="0" min="0" max="100" id="range" type="range" class="slider" name="Range" />
                         </div>
                         <form method="post" enctype="multipart/form-data">
                             <label class="input-file">
-                                <input type="file" name="file">
+                                <input type="file" name="file" name="File">
                                 <img src="images/attach-file.png" />
                                 <span>Прикрепить файл</span>
                             </label>
