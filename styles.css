@@ -501,6 +501,7 @@ body {
 
 .select-items div {
     color: #FFFFFF !important;
+    transition: 0.3s;
 }
 .select-items div:hover {
     color: #43ABF0 !important;
